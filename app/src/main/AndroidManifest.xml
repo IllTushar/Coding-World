@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.codde">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:banner="@android:color/holo_green_light"
+        android:icon="@drawable/programmer"
+        android:label="Coding World"
+        android:roundIcon="@drawable/programmer"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Scanner"></activity>
+        <activity android:name=".Python" />
+        <activity android:name=".Flutter" />
+        <activity android:name=".Kotlin" />
+        <activity android:name=".java" />
+        <activity android:name=".C" />
+        <activity android:name=".Info" />
+        <activity android:name=".DashBoard" />
+        <activity
+            android:name=".Welcome"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
